@@ -17,7 +17,7 @@ Bellman-Ford algoritması, ağırlıklı graf problemlerinde kullanılabilen etk
 
 Bellman-Ford algoritmasının çalışma zamanı analizi, grafdaki düğüm sayısına (n) ve kenar sayısına (m) bağlıdır. Aşağıda, Bellman-Ford algoritmasının en iyi, en kötü ve ortalama çalışma zamanı sınırları açıklanmaktadır:
 
-- **En İyi Çalışma Zamanı:** Bellman-Ford algoritması için en iyi durum, grafdaki tüm kenarların ağırlığının pozitif olduğu durumdur. Bu durumda, algoritma her bir düğüme sadece bir kez erişerek, en kısa yolları hesaplayabilir. Bu durumda, algoritmanın çalışma zamanı O(n + m) olacaktır.
+- **En İyi Çalışma Zamanı:** Bellman-Ford algoritması için en iyi durum, grafdaki tüm kenarların ağırlığının pozitif olduğu durumdur. Bu durumda, algoritma her bir düğüme sadece bir kez erişerek, en kısa yolları hesaplayabilir. Bu durumda, algoritmanın çalışma zamanı O(n+m) olacaktır.
 
 - **En Kötü Çalışma Zamanı:** Bellman-Ford algoritması için en kötü durum, grafdaki bir negatif döngü olduğu durumdur. Bu durumda, algoritma her bir düğüme her turda erişerek, en kısa yolları hesaplamaya devam eder. En fazla n-1 turda, grafdaki tüm düğümlere ait en kısa yollar hesaplanır. Eğer grafdaki bir negatif döngü varsa, algoritma sonsuz turda kalır. Bu durumda, algoritmanın çalışma zamanı O(nm) olacaktır.
 
