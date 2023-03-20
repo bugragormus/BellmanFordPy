@@ -1,5 +1,3 @@
-# Bellman-Ford Algorithm with Python
-
 # **Bellman-Ford Algorithm with Python**
 
 ### **Bellman-Ford Algoritması Nedir?**
